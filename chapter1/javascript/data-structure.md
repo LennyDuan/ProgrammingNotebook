@@ -31,8 +31,7 @@ P.S. It's worth noting that Array also has a function named unshift(). This func
 Code Example & Test: [Array as __Queue__](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/buidin/array_test.js)
 
 ### LinkedList
-
-
+Code Example & Test: LinkedList [Example](https://github.com/LennyDuan/LeetCode/blob/master/node/src/util/class/linkedlist.js) and [Test](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/class/linkedlist_test.js)
 
 
 ---
