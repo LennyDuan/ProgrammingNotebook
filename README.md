@@ -1,5 +1,8 @@
 # Programming Notebook
 
+All the content can be viewed [lennyduan.gitbooks](https://lennyduan.gitbooks.io/programming-notebook/content/)
+
+---
 This is a notebook for myself and all the programmer to record and share all the all the knowledge I learned during programming.
 
 __Lenny Duan__ is the original author. Please give credit to the original author when you use it elsewhere. For any website reprinted the article channels, please reference.
