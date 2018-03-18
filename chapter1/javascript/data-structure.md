@@ -8,9 +8,9 @@ A stack follows the Last-In First-Out (LIFO) paradigm: an item added last will b
 ```
 var stack = [];       // stack is an array in js
 stack.push(1);        // top -> 1
-stack.push(2);        // top 2 -> 1
-stack.push(3);        // top 3 -> 2 -> 1
-var i = stack.pop();  // top 2 -> 1
+stack.push(2);        // top -> 2 -> 1
+stack.push(3);        // top -> 3 -> 2 -> 1
+var i = stack.pop();  // top -> 2 -> 1
 ```
 
 Code Example & Test: [Array as __Stack__](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/buidin/array_test.js)
@@ -20,9 +20,10 @@ A queue follows the First-In First-Out (FIFO) paradigm: the first item added wil
 
 ```
 var queue = [];        // queue is an array in js
-queue.push(2);         // queue is now [2]
-queue.push(5);         // queue is now [2, 5]
-var i = queue.shift(); // queue is now [5]
+queue.push(1);         // rear -> 1 -> front
+queue.push(2);         // rear -> 1 -> 2 -> front
+queue.push(3);         // rear -> 1 -> 2 -> 3 -> front
+var i = queue.shift(); // rear -> 2 -> 3 -> front
 alert(i);   
 ```
 
