@@ -38,4 +38,4 @@ Code Example & Test: [Array as __Queue__](https://github.com/LennyDuan/LeetCode/
 ---
 ##### Some useful online resourse
 Some knowledge are learned from others study/blogs/comments. Thanks very much for the sharing community and culture
-* [9 JavaScript Tips You May Not Know](http://codetunnel.com/9-javascript-tips-you-may-not-know/) 
+* [9 JavaScript Tips You May Not Know](http://codetunnel.com/9-javascript-tips-you-may-not-know/) - Ayman Hourieh
