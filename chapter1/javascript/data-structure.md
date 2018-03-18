@@ -1,4 +1,4 @@
-``# Data Structure
+# Data Structure
 
 Here will talk about the how to implement different data structure in JavaScript.
 
@@ -26,6 +26,8 @@ queue.push(3);         // rear -> 1 -> 2 -> 3 -> front
 var i = queue.shift(); // rear -> 2 -> 3 -> front
 ```
 
+P.S. It's worth noting that Array also has a function named unshift(). This function adds the passed item to the beginning of an array. 
+
 Code Example & Test: [Array as __Queue__](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/buidin/array_test.js)
 
 ### LinkedList
@@ -34,6 +36,6 @@ Code Example & Test: [Array as __Queue__](https://github.com/LennyDuan/LeetCode/
 
 
 ---
-##### Some useful online resourse:
-
-* [9 JavaScript Tips You May Not Know](http://codetunnel.com/9-javascript-tips-you-may-not-know/)
+##### Some useful online resourse
+Some knowledge are learned from others study/blogs/comments. Thanks very much for the sharing community and culture
+* [9 JavaScript Tips You May Not Know](http://codetunnel.com/9-javascript-tips-you-may-not-know/) 
