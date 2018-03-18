@@ -24,8 +24,9 @@ queue.push(1);         // rear -> 1 -> front
 queue.push(2);         // rear -> 1 -> 2 -> front
 queue.push(3);         // rear -> 1 -> 2 -> 3 -> front
 var i = queue.shift(); // rear -> 2 -> 3 -> front
-alert(i);   
 ```
+
+Code Example & Test: [Array as __Stack__](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/buidin/array_test.js)
 
 ### LinkedList
 
