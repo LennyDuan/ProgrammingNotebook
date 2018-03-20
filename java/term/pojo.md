@@ -1,5 +1,5 @@
 # Pojo 
-Pojo: Plain Old Java Object is a Java object not bound by any restriction other than those forced by the Java Language Specification. 
+Pojo: __Plain Old Java Object__ is a Java object not bound by any restriction other than those forced by the Java Language Specification. 
 ## Pojo for JSON
 In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert a `JSON String` to a `JSON object` and then convert it to a `Java Class` via `Jackson objectMapper`.
 
