@@ -19,8 +19,9 @@ In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert 
     ## Normal Getter() & Setter()
   }
   ```
-3. Use `Jackson.getObjectMapper()` to readValue from a Json String to this Class:
+3. Use `Jackson.getObjectMapper()`, a processor for Java, to readValue from a Json String to this Class:
     
   ```
   User responseUser = Jackson.getObjectMapper().readValue(json, User.class);
   ```
+  And then, use normal Getter() to get the value from Json. More usage of Jackson Object Mapper please find here [Java doc - Jackson](https://fasterxml.github.io/jackson-databind/javadoc/2.7/com/fasterxml/jackson/databind/ObjectMapper.html)
