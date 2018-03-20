@@ -31,6 +31,8 @@ More userful/detail info can be found in the official [Documentation](https://ww
 4. Enjoy logger output:
 
  ```
- 0 [anyFunction] INFO Any<Class Name> - Hello World
+ Time [anyFunction<Function name>] INFO Any<Class name> - Hello World
+ Time [anyFunction<Function name>] DEBUG Any<Class name> - Hello World
+Time [anyFunction<Function name>] ERROR Any<Class name> - Hello World
  ```
 
