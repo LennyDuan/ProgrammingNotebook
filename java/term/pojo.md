@@ -8,14 +8,19 @@ In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert 
         String jsonResult = "{\"name\": \"Lenny Duan\", \"age\": \"25\", \"email\": \"lenny.duan@fake.com\" }";
 2. We want to retrieve the data `name`, `age` and `email`:
   * If we do not have a `User` Class then we create one:
+  * Or we can directly map to an existence `User` Class.
   
-```
-public class User {
-  private String name;
-  private String age;
-  private String email;
-  
-  ...
-  ## Normal Getter & Setter
-}
-```
+  ```
+  public class User {
+    private String name;
+    private String age;
+    private String email;
+    ...
+    ## Normal Getter() & Setter()
+  }
+  ```
+3. Use `Jackson.getObjectMapper()` to readValue from a Json String to this Class:
+    
+  ```
+  User responseUser = Jackson.getObjectMapper().readValue(json, User.class);
+  ```
