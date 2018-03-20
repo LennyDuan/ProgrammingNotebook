@@ -44,6 +44,9 @@ The best part I like the SLF4J is that it will not evaluate the toString() unles
 In SLF4J, `{}` is used to replace the variables:
 ```
 int age = 10;
-logger.info("The age of Lenny Duan is {}", age);
+logger.info("The age of Lenny Duan is {} years old", age);
 ```
-
+And the output will be looked like: 
+```
+Time [<Function name>] INFO <Class name> - The age of Lenny Duan is 10 years old
+```
