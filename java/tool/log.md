@@ -7,3 +7,30 @@ The Simple Logging Facade for Java (SLF4J) serves as a simple facade or abstract
 ##### Example:
 More userful/detail info can be found in the official [Documentation](https://www.slf4j.org/docs.html):
 
+1. Import Logger dependency:
+
+ ```
+ import org.slf4j.Logger;
+ import org.slf4j.LoggerFactory;
+ ```
+2. Initial Logger factory with class name:
+
+ ```
+ Logger logger = LoggerFactory.getLogger(<Any>.class);
+ ```
+
+3. Use `info()`, `error()` or `debug()` to output.
+ 
+ ```
+ void anyFunction() {
+   logger.info("Hello world");
+   logger.debug("Hello world");
+   logger.error("Hello world");
+ }
+ ```
+4. Enjoy logger output:
+
+ ```
+ 0 [main] INFO HelloWorld - Hello World
+ ```
+
