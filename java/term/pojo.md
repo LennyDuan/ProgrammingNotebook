@@ -1,6 +1,9 @@
 # Pojo 
 Pojo: __Plain Old Java Object__ is a Java object not bound by any restriction other than those forced by the Java Language Specification. 
-## Pojo for JSON
+
+---
+
+### Pojo for JSON
 In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert a `JSON String` to a `JSON object` and then convert it to a `Java Class` via `Jackson objectMapper`.
 
 ##### Example
@@ -31,3 +34,5 @@ In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert 
 If you try to convert Json String to a class use `Jackson`, It should be do what you expect if you do not have _constructor()_ for that Class. __But__ if you do have a _constructor_ or you have extra attributions in that Class. Better to use `@JsonCreator` to annotate the _constructor_.
 
 ##### Example
+
+---

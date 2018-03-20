@@ -2,6 +2,8 @@
 
 Here will talk about the how to implement different data structure in JavaScript.
 
+--- 
+
 ### Stack
 A stack follows the Last-In First-Out (LIFO) paradigm: an item added last will be removed first. JavaScript have a _buid-in stack_ via array - use Array to implement basic stack function. The __Array class__ has 2 methods that provide stack functionality. _.push()_ appends an item to the end of the array, and _.pop()_ removes and returns the last item in the array. 
 
@@ -14,6 +16,8 @@ var i = stack.pop();  // top -> 2 -> 1
 ```
 
 Code Example & Test: [Array as __Stack__](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/buidin/array_test.js)
+
+---
 
 ### Queue
 A queue follows the First-In First-Out (FIFO) paradigm: the first item added will be the first item removed. Same as stack, an __array__ can be turned into a __queue__ by using the push() and shift() methods. _.push()_ inserts the passed argument at the end of the array, and _.shift()_ removes and returns the first item.
@@ -29,6 +33,8 @@ var i = queue.shift(); // rear -> 2 -> 3 -> front
 P.S. It's worth noting that Array also has a function named unshift(). This function adds the passed item to the beginning of an array. 
 
 Code Example & Test: [Array as __Queue__](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/buidin/array_test.js)
+
+---
 
 ### LinkedList
 Code Example & Test: LinkedList [Example](https://github.com/LennyDuan/LeetCode/blob/master/node/src/util/class/linkedlist.js) and [Test](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/class/linkedlist_test.js)
