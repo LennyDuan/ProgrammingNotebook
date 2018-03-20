@@ -23,14 +23,14 @@ More userful/detail info can be found in the official [Documentation](https://ww
  
  ```
  void anyFunction() {
-   logger.info("Hello world");
-   logger.debug("Hello world");
-   logger.error("Hello world");
+    logger.info("Hello World");
+    logger.debug("Hello World");
+    logger.error("Hello World");
  }
  ```
 4. Enjoy logger output:
 
  ```
- 0 [main] INFO HelloWorld - Hello World
+ 0 [anyFunction] INFO Any<Class Name> - Hello World
  ```
 
