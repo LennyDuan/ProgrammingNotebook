@@ -33,6 +33,18 @@ In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert 
 #### Notice
 If you try to convert Json String to a class use `Jackson`, It should be do what you expect if you do not have _constructor()_ for that Class. __But__ if you do have a _constructor_ or you have extra attributions in that Class. Better to use `@JsonCreator` to annotate the _constructor_.
 
-##### Example
+##### Example:
+
+Use the `User` Class as an example:
+
+```
+public class User {
+ private String name;
+ private String age;
+ private String email;
+ ...
+ ## Normal Getter() & Setter()
+}
+```
 
 ---
