@@ -37,4 +37,12 @@ Time [anyFunction<Function name>] ERROR Any<Class name> - Hello World
  ```
 
 #### Notice
+The best part I like the SLF4J is that it will not evaluate the toString() unless it going to actually print it. As well as the format SLF4J used to insert an variable into a String
+
+##### Example
+
+```
+int age = 10;
+logger.info("The age of Lenny Duan is {}", age);
+```
 
