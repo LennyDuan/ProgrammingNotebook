@@ -5,6 +5,7 @@ In some of cases, Pojo is a Class created for retrieve/map JSON String. Convert 
 
 ### Example
 1. Get a JSON HTTP response:
+
         String jsonResult = "{\"name\": \"Lenny Duan\", \"age\": \"25\", \"email\": \"lenny.duan@fake.com\" }";
 2. We want to retrieve the data `name`, `age` and `email`:
   * If we do not have a `User` Class then we create one:
