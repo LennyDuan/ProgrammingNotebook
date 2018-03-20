@@ -41,6 +41,7 @@ The best part I like the SLF4J is that it will not evaluate the toString() unles
 
 ##### Example
 
+In SLF4J, `{}` is used to replace the variables:
 ```
 int age = 10;
 logger.info("The age of Lenny Duan is {}", age);
