@@ -6,6 +6,84 @@ There have lots of third-party API/Modules about operate the Array such as [Loda
 
 ---
 
+### `.map()`
+##### Return a new array of objects 
+###### -> every element will be modified by provided function
+
+---
+
+### `.filter()`
+##### Return a new array of objects 
+###### -> elements will pass the function
+
+---
+
+### `.slice()`
+##### Return a new array of objects 
+###### -> from `begin` to `end`(end not included)
+
+---
+
+### `.reverse()`
+##### Return a new array of objects
+###### -> reverse an array
+
+---
+
+### `.every()`
+##### Return a boolean 
+###### -> all elements pass the function
+
+---
+
+### `.some()`
+##### Return a boolean 
+###### -> at least one element pass the function
+
+---
+
+### `.includes()`
+##### Return a boolean 
+###### -> an collection includes an element or not
+
+---
+
+### `.find()`
+##### Return object 
+###### -> first element that satisfies the function
+
+---
+
+### `.reduce()`
+##### Return object 
+###### -> return a value for each element operated by provided function one by one
+
+---
+
+### `.join()`
+##### Return string
+###### -> join all elements into a string
+
+---
+
+### `.forEach()`
+##### Return nothing
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
