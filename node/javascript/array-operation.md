@@ -12,6 +12,11 @@ More info can be checked in [official doc](https://developer.mozilla.org/en-US/d
 #### Return a new array of objects 
 ###### -> every element will be modified by provided function
 
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 ---
 
 ### `.filter()`
