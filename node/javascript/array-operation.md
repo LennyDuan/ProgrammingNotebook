@@ -11,7 +11,6 @@ More info can be checked in [official doc](https://developer.mozilla.org/en-US/d
 ### `.map()`
 #### Return a new array of objects 
 ###### -> every element will be modified by provided function
-
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
@@ -22,59 +21,106 @@ const result =
 ### `.filter()`
 #### Return a new array of objects 
 ###### -> elements will pass the function
-
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 ---
 
 ### `.slice()`
 #### Return a new array of objects 
 ###### -> from `begin` to `end`(end not included)
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.reverse()`
 #### Return a new array of objects
 ###### -> reverse an array
-
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 ---
 
 ### `.every()`
 #### Return a boolean 
 ###### -> all elements pass the function
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.some()`
 #### Return a boolean 
 ###### -> at least one element pass the function
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.includes()`
 #### Return a boolean 
 ###### -> an collection includes an element or not
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.find()`
 #### Return object 
 ###### -> first element that satisfies the function
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.reduce()`
 #### Return object 
 ###### -> return a value for each element operated by provided function one by one
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.join()`
 #### Return string
 ###### -> join all elements into a string
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = 
+```
 
 ---
 
 ### `.forEach()`
 #### Return nothing
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+```
 
 ---
 
