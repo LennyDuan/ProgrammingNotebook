@@ -37,6 +37,13 @@ Code Example & Test: [Array as __Queue__](https://github.com/LennyDuan/LeetCode/
 ---
 
 ### LinkedList
+A linked list is a linear data structure where each element is a separate object. Each element (we will call it a __node__) of a list is comprising of two items - the data and a reference to the next node. The last node has a reference to _null_. The entry point into a linked list is called the __head__ of the list. It should be noted that head is not a separate node, but the reference to the first node.
+
+There are basic type of Linked list: 
+* __A singly linked list__ is described above
+* __A doubly linked list__ is a list that has two references, one to the next node and another to previous node.
+* __A circular linked list__ where last node of the list points back to the first node (or the head) of the list.
+
 Code Example & Test: LinkedList [Example](https://github.com/LennyDuan/LeetCode/blob/master/node/src/util/class/linkedlist.js) and [Test](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/class/linkedlist_test.js)
 
 
