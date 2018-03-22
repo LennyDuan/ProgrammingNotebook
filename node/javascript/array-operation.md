@@ -59,6 +59,7 @@ __Notice__: The original array will be reversed as well
 ### `.sort()`
 #### Return a new array of objects
 ###### -> sort an array
+##### Default `.sort()`:
 ```
 const origin = [5, 4, 3, 2, 1];
 // origin -> [5, 4, 3, 2, 1]
@@ -68,7 +69,7 @@ const result = origin.sort();
 ```
 __Notice__: The sort is [not necessarily stable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort). The default sort order is according to string Unicode code points.The original array will be sorted as well.
 
-__Defined a sort: __
+##### Define a `.sort()`:
 ```
 const origin = [5, 4, 3, 2, 1];
 // origin -> [5, 4, 3, 2, 1]
