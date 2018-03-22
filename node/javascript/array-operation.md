@@ -144,7 +144,8 @@ const result_sec = origin.reduceRight((a, b) => a * b);
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.join(' -> ');
+// result -> '1 -> 2 -> 3 -> 4 -> 5'
 ```
 
 ---
