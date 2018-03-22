@@ -47,7 +47,8 @@ const result = origin.slice(1, 4)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.reverse();
+// result -> [5, 4, 3, 2, 1]
 ```
 ---
 
@@ -57,7 +58,11 @@ const result =
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin(ele => ele > 0)
+// result -> true
+const result_sec = origin(ele => ele > 1)
+// result_sec -> false
+
 ```
 
 ---
