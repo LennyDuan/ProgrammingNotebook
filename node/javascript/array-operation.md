@@ -14,7 +14,8 @@ More info can be checked in [official doc](https://developer.mozilla.org/en-US/d
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.map(ele => ele * 2);
+// result -> [2, 4, 6, 8, 10]
 ```
 ---
 
@@ -24,7 +25,8 @@ const result =
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.filter(ele => ele > 3)
+// result -> [4, 5]
 ```
 ---
 
@@ -34,9 +36,9 @@ const result =
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.slice(1, 4)
+// result -> [2, 3, 4]
 ```
-
 ---
 
 ### `.reverse()`
