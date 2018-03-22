@@ -75,7 +75,7 @@ const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
 const result = origin(ele => ele > 1)
 // result -> true
-const result_sec = origin(ele => ele 5 1)
+const result_sec = origin(ele => ele > 5)
 // result_sec -> false
 
 ```
