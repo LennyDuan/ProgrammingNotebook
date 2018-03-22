@@ -7,7 +7,7 @@ There have lots of third-party API/Modules about operate the Array such as [Loda
 More info can be checked in [official doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ---
-#### Return a new array of objects 
+## Return a new array of objects 
 ### `.map()`
 ###### -> every element will be modified by provided function
 ```
@@ -37,7 +37,7 @@ const result = origin.slice(1, 4)
 // result -> [2, 3, 4]
 ```
 ---
-#### Modify origin collection & Return a new array of objects
+## Modify origin collection & Return a new array of objects
 ### `.reverse()`
 ###### -> reverse an array
 ```
@@ -76,7 +76,7 @@ const result = origin.sort((next, pre) => next < pre);
 // result -> [5, 4, 3, 2, 1]
 ```
 ---
-#### Return a boolean 
+## Return a boolean 
 ### `.every()`
 ###### -> all elements pass the function
 ```
@@ -124,7 +124,7 @@ const result_sec = origin.includes(6);
 ```
 
 ---
-#### Return object
+## Return object
 ### `.find()` OR `.findIndex()`
 ###### -> first element that satisfies the function
 ```
@@ -153,7 +153,7 @@ const result_sec = origin.reduceRight((a, b) => a * b);
 // explain -> 5 * 4 * 3 * 2 * 1
 ```
 ---
-#### Return string
+## Return string
 ### `.join()`
 ###### -> join all elements into a string
 ```
@@ -163,7 +163,7 @@ const result = origin.join(' -> ');
 // result -> '1 -> 2 -> 3 -> 4 -> 5'
 ```
 ---
-#### Return nothing
+## Return nothing
 ### `.forEach()`
 ```
 const origin = [1, 2, 3, 4, 5];
