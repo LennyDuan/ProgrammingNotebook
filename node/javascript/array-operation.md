@@ -56,19 +56,29 @@ __Notice__: The original array will be reversed as well
 
 ---
 
-### `.reverse()`
+### `.sort()`
 #### Return a new array of objects
-###### -> reverse an array
+###### -> sort an array
 ```
-const origin = [1, 2, 3, 4, 5];
+const origin = [5, 4, 3, 2, 1];
+// origin -> [5, 4, 3, 2, 1]
+const result = origin.sort();
+// result -> [1, 2, 3, 4, 5]
 // origin -> [1, 2, 3, 4, 5]
-const result = origin.reverse();
-// result -> [5, 4, 3, 2, 1]
+```
+__Notice__: The sort is [not necessarily stable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort). The default sort order is according to string Unicode code points.The original array will be sorted as well.
+
+__Defined a sort: __
+```
+const origin = [5, 4, 3, 2, 1];
 // origin -> [5, 4, 3, 2, 1]
 
-```
-__Notice__: The original array will be reversed as well
+const result = origin.sort((next, pre) => next > pre);
+// result -> [1, 2, 3, 4, 5]
 
+const result = origin.sort((next, pre) => next < pre);
+// result -> [5, 4, 3, 2, 1]
+```
 ---
 
 
