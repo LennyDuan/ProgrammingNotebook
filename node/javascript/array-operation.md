@@ -7,9 +7,8 @@ There have lots of third-party API/Modules about operate the Array such as [Loda
 More info can be checked in [official doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ---
-
-### `.map()`
 #### Return a new array of objects 
+### `.map()`
 ###### -> every element will be modified by provided function
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -20,7 +19,6 @@ const result = origin.map(ele => ele * 2);
 ---
 
 ### `.filter()`
-#### Return a new array of objects 
 ###### -> elements will pass the function
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -31,7 +29,6 @@ const result = origin.filter(ele => ele > 3)
 ---
 
 ### `.slice()`
-#### Return a new array of objects 
 ###### -> from `begin` to `end`(end not included)
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -40,9 +37,8 @@ const result = origin.slice(1, 4)
 // result -> [2, 3, 4]
 ```
 ---
-
+#### Modify origin collection & Return a new array of objects
 ### `.reverse()`
-#### Return a new array of objects
 ###### -> reverse an array
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -57,7 +53,6 @@ __Notice__: The original array will be reversed as well
 ---
 
 ### `.sort()`
-#### Return a new array of objects
 ###### -> sort an array
 ##### Default `.sort()`:
 ```
@@ -81,10 +76,8 @@ const result = origin.sort((next, pre) => next < pre);
 // result -> [5, 4, 3, 2, 1]
 ```
 ---
-
-
-### `.every()`
 #### Return a boolean 
+### `.every()`
 ###### -> all elements pass the function
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -101,7 +94,6 @@ const result_sec = origin.every(ele => ele > 1);
 ---
 
 ### `.some()`
-#### Return a boolean 
 ###### -> at least one element pass the function
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -118,7 +110,6 @@ const result_sec = origin.some(ele => ele > 5);
 ---
 
 ### `.includes()`
-#### Return a boolean 
 ###### -> an collection includes an element or not
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -133,9 +124,8 @@ const result_sec = origin.includes(6);
 ```
 
 ---
-
+#### Return object
 ### `.find()` OR `.findIndex()`
-#### Return object 
 ###### -> first element that satisfies the function
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -147,11 +137,8 @@ const result = origin.find(ele => ele * 2 == 8);
 const result = origin.findIndex(ele => ele * 3 == 3);
 // result -> 0
 ```
-
 ---
-
 ### `.reduce()` OR `.reduceRight`
-#### Return object 
 ###### -> return a value for each element operated by provided function left-to-right or right-to-left
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -164,13 +151,10 @@ const result = origin.reduce((a, b) => a * b);
 const result_sec = origin.reduceRight((a, b) => a * b);
 // result_sec -> 120
 // explain -> 5 * 4 * 3 * 2 * 1
-
 ```
-
 ---
-
-### `.join()`
 #### Return string
+### `.join()`
 ###### -> join all elements into a string
 ```
 const origin = [1, 2, 3, 4, 5];
@@ -178,11 +162,9 @@ const origin = [1, 2, 3, 4, 5];
 const result = origin.join(' -> ');
 // result -> '1 -> 2 -> 3 -> 4 -> 5'
 ```
-
 ---
-
-### `.forEach()`
 #### Return nothing
+### `.forEach()`
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
