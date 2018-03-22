@@ -76,6 +76,16 @@ module.exports = {
 ```
 import { ListNode } from '{path_to}/linkedlist';
 
+// Initialize head
+const node = new ListNode(1);
+
+// Attach next node
+const nodeNext = new ListNode(2);
+node.next = nodeNext;
+
+// Output
+console.log(node.toString())
+
 ```
 
 Code Example & Test: LinkedList [Example](https://github.com/LennyDuan/LeetCode/blob/master/node/src/util/class/linkedlist.js) and [Test](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/class/linkedlist_test.js)
