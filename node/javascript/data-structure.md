@@ -47,19 +47,21 @@ There are 3 basic type of Linked list:
 ##### Singly Linked List:
 In Node, not like Java, it doesn't have build-in/default linkedList data structure. So we need to create a LinkedList Class if we want to use it:
 
+###### Initialize a ListNode Class in linkedlist.js
 ```
 class ListNode {
-  constructor(value) {
-    this.value = value;
+  constructor(object) {
+    this.object = object;
     this.next = null;
   }
 }
 
+// Optional: to improve output
 ListNode.prototype.toString = function () {
-  let str = this.value;
+  let str = this.object.toString();
   let nextNode = this.next;
   while (nextNode) {
-    str += ` -> ${nextNode.value}`;
+    str += ` -> ${nextNode.object}`;
     nextNode = nextNode.next;
   }
   return str;
@@ -68,6 +70,12 @@ ListNode.prototype.toString = function () {
 module.exports = {
   ListNode,
 };
+```
+
+###### Usage
+```
+import { ListNode } from '{path_to}/linkedlist';
+
 ```
 
 Code Example & Test: LinkedList [Example](https://github.com/LennyDuan/LeetCode/blob/master/node/src/util/class/linkedlist.js) and [Test](https://github.com/LennyDuan/LeetCode/blob/master/node/test/util/class/linkedlist_test.js)
