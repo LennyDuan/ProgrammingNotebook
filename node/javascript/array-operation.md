@@ -97,13 +97,16 @@ const result_sec = origin.includes(6)
 
 ---
 
-### `.find()`
+### `.find()` OR `.findIndex()`
 #### Return object 
 ###### -> first element that satisfies the function
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.find(ele => ele * 2 == 8)
+// result -> 4
+const result = origin.findIndex(ele => ele * 3 == 3)
+// result -> 0
 ```
 
 ---
