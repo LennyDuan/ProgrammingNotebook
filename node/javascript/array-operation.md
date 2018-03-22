@@ -73,9 +73,9 @@ const result_sec = origin.every(ele => ele > 1)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = origin(ele => ele > 1)
+const result = origin.some(ele => ele > 1)
 // result -> true
-const result_sec = origin(ele => ele > 5)
+const result_sec = origin.some(ele => ele > 5)
 // result_sec -> false
 
 ```
@@ -88,7 +88,11 @@ const result_sec = origin(ele => ele > 5)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.includes(1)
+// result -> true
+const result_sec = origin.includes(6)
+// result_sec -> false
+
 ```
 
 ---
