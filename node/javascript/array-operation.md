@@ -58,9 +58,9 @@ const result = origin.reverse();
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = origin(ele => ele > 0)
+const result = origin.every(ele => ele > 0)
 // result -> true
-const result_sec = origin(ele => ele > 1)
+const result_sec = origin.every(ele => ele > 1)
 // result_sec -> false
 
 ```
@@ -73,7 +73,11 @@ const result_sec = origin(ele => ele > 1)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin(ele => ele > 1)
+// result -> true
+const result_sec = origin(ele => ele 5 1)
+// result_sec -> false
+
 ```
 
 ---
