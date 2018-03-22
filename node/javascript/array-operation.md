@@ -58,9 +58,9 @@ const result = origin.reverse();
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = origin.every(ele => ele > 0)
+const result = origin.every(ele => ele > 0);
 // result -> true
-const result_sec = origin.every(ele => ele > 1)
+const result_sec = origin.every(ele => ele > 1);
 // result_sec -> false
 
 ```
@@ -73,9 +73,9 @@ const result_sec = origin.every(ele => ele > 1)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = origin.some(ele => ele > 1)
+const result = origin.some(ele => ele > 1);
 // result -> true
-const result_sec = origin.some(ele => ele > 5)
+const result_sec = origin.some(ele => ele > 5);
 // result_sec -> false
 
 ```
@@ -88,9 +88,9 @@ const result_sec = origin.some(ele => ele > 5)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = origin.includes(1)
+const result = origin.includes(1);
 // result -> true
-const result_sec = origin.includes(6)
+const result_sec = origin.includes(6);
 // result_sec -> false
 
 ```
@@ -103,21 +103,23 @@ const result_sec = origin.includes(6)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = origin.find(ele => ele * 2 == 8)
+const result = origin.find(ele => ele * 2 == 8);
 // result -> 4
-const result = origin.findIndex(ele => ele * 3 == 3)
+const result = origin.findIndex(ele => ele * 3 == 3);
 // result -> 0
 ```
 
 ---
 
-### `.reduce()`
+### `.reduce()` OR `.reduceRight`
 #### Return object 
-###### -> return a value for each element operated by provided function one by one
+###### -> return a value for each element operated by provided function left-to-right or right-to-left
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
-const result = 
+const result = origin.reduce((a, b) => a * b);
+// result -> 120
+// explain -> 1 * 2 * 3 * 4 * 5
 ```
 
 ---
