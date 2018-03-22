@@ -49,8 +49,28 @@ const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
 const result = origin.reverse();
 // result -> [5, 4, 3, 2, 1]
+// origin -> [5, 4, 3, 2, 1]
+
 ```
+__Notice__: The original array will be reversed as well
+
 ---
+
+### `.reverse()`
+#### Return a new array of objects
+###### -> reverse an array
+```
+const origin = [1, 2, 3, 4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = origin.reverse();
+// result -> [5, 4, 3, 2, 1]
+// origin -> [5, 4, 3, 2, 1]
+
+```
+__Notice__: The original array will be reversed as well
+
+---
+
 
 ### `.every()`
 #### Return a boolean 
@@ -155,6 +175,13 @@ const result = origin.join(' -> ');
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
+origin.forEach(ele => console.log(`Ele: ${ele}`))
+// Ele: 1
+// Ele: 2
+// Ele: 3
+// Ele: 4
+// Ele: 5
+
 ```
 
 ---
