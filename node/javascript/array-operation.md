@@ -43,9 +43,9 @@ const result = origin.slice(1, 4)
 ```
 const origin1 = [1, 2, 3];
 const origin2 = [4, 5];
-// origin -> [1, 2, 3, 4, 5]
-const result = origin.slice(1, 4)
-// result -> [2, 3, 4]
+
+const result = origin1.concat(origin2);
+// result -> [1, 2, 3, 4, 5]
 ```
 ---
 
