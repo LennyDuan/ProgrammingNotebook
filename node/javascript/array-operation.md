@@ -37,6 +37,18 @@ const result = origin.slice(1, 4)
 // result -> [2, 3, 4]
 ```
 ---
+
+### `.concat()`
+###### -> merge two arrays
+```
+const origin1 = [1, 2, 3];
+const origin2 = [4, 5];
+// origin -> [1, 2, 3, 4, 5]
+const result = origin.slice(1, 4)
+// result -> [2, 3, 4]
+```
+---
+
 ## Modify origin collection & Return a new array of objects
 ### `.reverse()`
 ###### -> reverse an array
