@@ -23,6 +23,4 @@ const num = Number(str);
 
 const num = parseInt(str, 10);
 // num -> 100
-
-
 ```
