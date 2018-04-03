@@ -14,5 +14,10 @@ const num = +str;
 ```
 
 __Options__: Use `Numer()` and `parseInt()`
+```
+const str = '100';
+// str = '100'
+const num = +str;
+// num -> 100
 
 ```
