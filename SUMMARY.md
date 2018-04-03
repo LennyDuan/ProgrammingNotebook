@@ -10,4 +10,5 @@
   * [JavaScript](node/javascript.md)
     * [Data Structure](node/javascript/data-structure.md)
     * [Collection Operation](node/javascript/array-operation.md)
+    * Tips
 
