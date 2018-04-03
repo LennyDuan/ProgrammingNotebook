@@ -21,7 +21,7 @@ const str = '100';
 const num = Number(str);
 // num -> 100
 
-const num = Number(str);
+const num = parseInt(str, 10);
 // num -> 100
 
 
