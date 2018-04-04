@@ -9,7 +9,7 @@
 * [Node](node.md)
   * [JavaScript](node/javascript.md)
     * [Data Structure](node/javascript/data-structure.md)
+    * [Prototype](node/javascript/prototype.md)
     * [Collection Operation](node/javascript/array-operation.md)
     * [Tips](node/javascript/tips.md)
-    * Prototype
 
