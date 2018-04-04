@@ -11,4 +11,5 @@
     * [Data Structure](node/javascript/data-structure.md)
     * [Collection Operation](node/javascript/array-operation.md)
     * [Tips](node/javascript/tips.md)
+    * Prototype
 
