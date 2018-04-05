@@ -69,7 +69,13 @@ var p = Object.create(o);
 // p is an object that inherits from o
 // p -> {}
 
-p.a = 4; // creates a property 'a' on p
+console.log(p.a); 
+// Is there a 'a' own property on p? No, check its inherits o -> { a: 2, m: [Function: m] }. 
+// p.a -> 2
+
+p.a = 4; 
+// creates a property 'a' on p
+// p -> { a: 4 }
 console.log(p.m()); // 5
 // when p.m is called, 'this' refers to p.
 // So when p inherits the function m of o, 
