@@ -60,11 +60,14 @@ var o = {
   }
 };
 
-console.log(o.m()); // 3
+console.log(o.m()); 
+// o -> { a: 2, m: [Function: m] }
+// 3
 // When calling o.m in this case, 'this' refers to o
 
 var p = Object.create(o);
 // p is an object that inherits from o
+// p -> {}
 
 p.a = 4; // creates a property 'a' on p
 console.log(p.m()); // 5
