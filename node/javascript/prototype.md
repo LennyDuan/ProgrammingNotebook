@@ -31,7 +31,8 @@ let o = new Person();
 
 console.log(o.name); 
 // -> 'a'
-// Is there an 'name' own property on o? Yes, and its value is 1.
+// Is there an 'name' own property on o? Yes, and its value is 'a'
+.
 
 console.log(o.b); // 2
 // Is there a 'b' own property on o? Yes, and its value is 2.
