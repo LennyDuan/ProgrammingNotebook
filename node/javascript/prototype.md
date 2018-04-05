@@ -125,6 +125,19 @@ console.log(a.arr)
 // [1]
 ```
 
+```
+console.log(g.hasOwnProperty('vertices'));
+// true
+
+console.log(g.hasOwnProperty('nope'));
+// false
+
+console.log(g.hasOwnProperty('addVertex'));
+// false
+
+console.log(g.__proto__.hasOwnProperty('addVertex'));
+```
+
 ##### With Object.create
 
 ```
