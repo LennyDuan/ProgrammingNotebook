@@ -126,16 +126,16 @@ console.log(a.arr)
 ```
 
 ```
-console.log(g.hasOwnProperty('vertices'));
+console.log(a.hasOwnProperty('arr'));
 // true
 
-console.log(g.hasOwnProperty('nope'));
+console.log(a.hasOwnProperty('nope'));
 // false
 
-console.log(g.hasOwnProperty('addVertex'));
+console.log(a.hasOwnProperty('add'));
 // false
 
-console.log(g.__proto__.hasOwnProperty('addVertex'));
+console.log(a.__proto__.hasOwnProperty('add'));
 ```
 
 ##### With Object.create
