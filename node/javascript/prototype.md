@@ -141,16 +141,17 @@ console.log(g.__proto__.hasOwnProperty('addVertex'));
 ##### With Object.create
 
 ```
-var a = {a: 1}; 
-// a ---> Object.prototype ---> null
+console.log(g.hasOwnProperty('vertices'));
+// true
 
-var b = Object.create(a);
-// b ---> a ---> Object.prototype ---> null
-console.log(b.a); // 1 (inherited)
+console.log(g.hasOwnProperty('nope'));
+// false
 
-var c = Object.create(b);
-// c ---> b ---> a ---> Object.prototype ---> null
+console.log(g.hasOwnProperty('addVertex'));
+// false
 
+console.log(g.__proto__.hasOwnProperty('addVertex'));
+// true
 ```
 ### Adding Properties and Methods to Objects
 * Sometimes you want to add new properties (or methods) to all existing objects of a given type.
