@@ -103,12 +103,26 @@ function A() {
   this.arr = [];
 };
 // constructor
+// A -> [Function: a]
 
 A.prototype = {
   add: function(ele) {
     this.arr.push(ele);
   }
 };
+// Create prototype for A
+// A.prototype = { add: [Function: add] }
+
+var a = new A()
+// a -> {}
+// a -> A -> A.prototype
+console.log(a.arr)
+// -> A.arr -> []
+
+a.add(1)
+// -> A -> A.prototype -> A.prototype.add(1)
+console.log(a.arr)
+// [1]
 ```
 
 ### Adding Properties and Methods to Objects
