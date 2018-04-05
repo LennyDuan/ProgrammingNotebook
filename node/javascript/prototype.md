@@ -87,11 +87,6 @@ p.c = function() { return 1 + 2 };
 // p -> { a: 4, c: [Function: c] }
 console.log(p.c()); 
 // -> 1 + 2 -> 3
-// when p.m is called, 'this' refers to p.
-// So when p inherits the function m of o, 
-// 'this.a' means p.a, the property 'a' of p
-
-
 
 ```
 
