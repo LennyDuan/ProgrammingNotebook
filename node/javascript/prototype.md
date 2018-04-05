@@ -124,7 +124,7 @@ a.add(1)
 console.log(a.arr)
 // [1]
 ```
-Also, when iterating over the properties of an object, every enumerable property that is on the prototype chain will be enumerated. To check whether an object has a property defined on itself and not somewhere on its prototype chain, it is necessary to use the __hasOwnProperty__ method which all objects inherit from __Object.prototype.__
+Also, when iterating over the properties of an object, every enumerable property that is on the prototype chain will be enumerated. To check whether an object has a _property defined on itself and not somewhere on its prototype chain_, it is necessary to use the __hasOwnProperty__ method which all objects inherit from __Object.prototype.__
 
 ```
 console.log(a.hasOwnProperty('arr'));
