@@ -29,7 +29,8 @@ let o = new Person();
 // Thus, the full prototype chain looks like:
 // { name: 'a', age: 25 } ---> {age: 30, home: 'cn'} ---> Object.prototype ---> null
 
-console.log(o.a); // 1
+console.log(o.name); 
+// -> 'a'
 // Is there an 'a' own property on o? Yes, and its value is 1.
 
 console.log(o.b); // 2
