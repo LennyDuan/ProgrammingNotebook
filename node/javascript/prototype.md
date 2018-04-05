@@ -99,6 +99,16 @@ console.log(p.c());
 A "constructor" in JavaScript is "just" a function that happens to be called with the new operator.
 
 ```
+function A() {
+  this.arr = [];
+};
+// constructor
+
+A.prototype = {
+  add: function(ele) {
+    this.arr.push(ele);
+  }
+};
 ```
 
 ### Adding Properties and Methods to Objects
