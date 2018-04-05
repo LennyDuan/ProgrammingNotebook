@@ -27,7 +27,7 @@ let o = new Person();
 // o.[[Prototype]].[[Prototype]] is Object.prototype.
 // Finally, o.[[Prototype]].[[Prototype]].[[Prototype]]`/`Object.prototype.prototype is null. This is the end of the prototype chain, as null,
 // Thus, the full prototype chain looks like:
-// { name: 'a', age: 25 } ---> {b: 3, c: 4} ---> Object.prototype ---> null
+// { name: 'a', age: 25 } ---> {age: 30, home: 'cn'} ---> Object.prototype ---> null
 
 console.log(o.a); // 1
 // Is there an 'a' own property on o? Yes, and its value is 1.
