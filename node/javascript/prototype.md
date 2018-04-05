@@ -19,8 +19,8 @@ let o = new Person();
 // o -> { name: 'a', age: 25 }
 
 //add properties in Person function's prototype
- f.prototype.age = 30;
- f.prototype.home = 'cn';
+ Person.prototype.age = 30;
+ Person.prototype.home = 'cn';
 
 // do not set the prototype f.prototype = {b:3,c:4}; this will break the prototype chain
 // o.[[Prototype]] has properties b and c.
