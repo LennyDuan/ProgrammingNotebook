@@ -76,10 +76,23 @@ console.log(p.a);
 p.a = 4; 
 // creates a property 'a' on p
 // p -> { a: 4 }
-console.log(p.m()); // 5
+console.log(p.m()); 
+// 5
 // when p.m is called, 'this' refers to p.
 // So when p inherits the function m of o, 
 // 'this.a' means p.a, the property 'a' of p
+
+p.c = function() { return 1 + 2 }; 
+// creates a method 'c' on p
+// p -> { a: 4, c: [Function: c] }
+console.log(p.c()); 
+// -> 1 + 2 -> 3
+// when p.m is called, 'this' refers to p.
+// So when p inherits the function m of o, 
+// 'this.a' means p.a, the property 'a' of p
+
+
+
 ```
 
 ### Adding Properties and Methods to Objects
