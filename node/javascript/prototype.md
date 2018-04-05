@@ -8,9 +8,11 @@ For example: Date objects inherit from Date.prototype. Array objects inherit fro
 ### Inheritance with the prototype chain
 JavaScript objects are dynamic "bags" of properties (referred to as own properties). __JavaScript objects__ have a __link__ to a __prototype object__. When trying to access a property of an object, the property will _not only be sought on the object but on the prototype of the object_, the prototype of the prototype, and so on _until either a property with a matching name is found or the end of the prototype chain is reached_.
 #### Inheriting properties Example:
+
 ```
 
 ```
+
 ### Adding Properties and Methods to Objects
 * Sometimes you want to add new properties (or methods) to all existing objects of a given type.
 
