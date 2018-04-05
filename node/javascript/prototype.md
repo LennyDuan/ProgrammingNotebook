@@ -49,6 +49,8 @@ console.log(o.d); // undefined
 // o.[[Prototype]].[[Prototype]] is null, stop searching,
 // no property found, return undefined.
 ```
+#### Inheriting "methods" example:
+JavaScript does not have "methods" in the form that class-based languages define them. In JavaScript, any function can be added to an object in the form of a property. An inherited function acts just as any other property.
 
 ### Adding Properties and Methods to Objects
 * Sometimes you want to add new properties (or methods) to all existing objects of a given type.
