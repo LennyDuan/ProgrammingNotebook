@@ -25,8 +25,7 @@ let o = new Person();
 // __Notice__: do not set the prototype Person.prototype = { a:1, b:2 }; this will break the prototype chain
 // o.[[Prototype]] has properties 'age' and 'home'.
 // o.[[Prototype]].[[Prototype]] is Object.prototype.
-// Finally, o.[[Prototype]].[[Prototype]].[[Prototype]] is null.
-// This is the end of the prototype chain, as null,
+// Finally, o.[[Prototype]].[[Prototype]].[[Prototype]]`/`Object.prototype.prototype is null. This is the end of the prototype chain, as null,
 // by definition, has no [[Prototype]].
 // Thus, the full prototype chain looks like:
 // {a: 1, b: 2} ---> {b: 3, c: 4} ---> Object.prototype ---> null
