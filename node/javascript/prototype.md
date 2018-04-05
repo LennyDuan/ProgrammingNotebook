@@ -16,7 +16,7 @@ let Person = function () {
    this.age = 25;
 }
 let o = new Person(); 
-// o -> {name: 'a', age: 25}
+// o -> { name: 'a', age: 25 }
 
 //add properties in Person function's prototype
  f.prototype.age = 30;
