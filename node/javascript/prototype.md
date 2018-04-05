@@ -6,7 +6,9 @@ All JavaScript objects inherit properties and methods from a prototype. JavaScri
 For example: Date objects inherit from Date.prototype. Array objects inherit from Array.prototype. Person objects inherit from Person.prototype. The __Object.prototype__ is on the __top__ of the prototype inheritance chain: Date objects, Array objects, and Person objects inherit from Object.prototype.
 
 ### Inheritance with the prototype chain
+JavaScript objects are dynamic "bags" of properties (referred to as own properties). JavaScript objects have a link to a prototype object. When trying to access a property of an object, the property will not only be sought on the object but on the prototype of the object, the prototype of the prototype, and so on until either a property with a matching name is found or the end of the prototype chain is reached.
 #### Inheriting properties
+
 ### Adding Properties and Methods to Objects
 * Sometimes you want to add new properties (or methods) to all existing objects of a given type.
 
