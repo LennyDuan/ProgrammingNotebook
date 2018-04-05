@@ -38,9 +38,10 @@ console.log(o.age);
 // Is there a 'age' own property on o? Yes, and its value is 25.
 // The prototype _also has a 'age property_, but it's __not visited__. This is called __"property shadowing."__
 
-console.log(o.c); // 4
-// Is there a 'c' own property on o? No, check its prototype.
-// Is there a 'c' own property on o.[[Prototype]]? Yes, its value is 4.
+console.log(o.home); 
+// -> 'cn'
+// Is there a 'home' own property on o? No, check its prototype.
+// Is there a 'home' own property on o.[[Prototype]]? Yes, its value is 'cn'.
 
 console.log(o.d); // undefined
 // Is there a 'd' own property on o? No, check its prototype.
