@@ -23,7 +23,7 @@ let o = new Person();
  Person.prototype.home = 'cn';
 
 // __Notice__: do not set the prototype Person.prototype = { a:1, b:2 }; this will break the prototype chain
-// o.[[Prototype]] has properties b and c.
+// o.[[Prototype]] has properties 'age' and 'home'.
 // o.[[Prototype]].[[Prototype]] is Object.prototype.
 // Finally, o.[[Prototype]].[[Prototype]].[[Prototype]] is null.
 // This is the end of the prototype chain, as null,
