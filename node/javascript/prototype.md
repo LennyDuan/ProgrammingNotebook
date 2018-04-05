@@ -14,4 +14,4 @@ __NOTICE__: The use of `__proto__` is controversial, and has been discouraged.
 
 ---
 * MDN [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
-* W3C []()
+* W3C [JavaScript Object Prototypes](https://www.w3schools.com/js/js_object_prototypes.asp)
