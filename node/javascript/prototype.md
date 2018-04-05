@@ -125,7 +125,7 @@ console.log(a.arr)
 // [1]
 ```
 
-#### With Object.create
+##### With Object.create
 
 ```
 var a = {a: 1}; 
