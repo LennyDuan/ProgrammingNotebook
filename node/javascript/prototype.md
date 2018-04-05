@@ -97,6 +97,10 @@ console.log(p.c());
 #### Different ways to create objects and the resulting prototype chain
 ##### Objects created with With a constructor
 A "constructor" in JavaScript is "just" a function that happens to be called with the new operator.
+
+```
+```
+
 ### Adding Properties and Methods to Objects
 * Sometimes you want to add new properties (or methods) to all existing objects of a given type.
 
