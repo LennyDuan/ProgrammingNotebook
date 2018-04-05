@@ -32,10 +32,10 @@ let o = new Person();
 console.log(o.name); 
 // -> 'a'
 // Is there an 'name' own property on o? Yes, and its value is 'a'
-.
 
-console.log(o.b); // 2
-// Is there a 'b' own property on o? Yes, and its value is 2.
+console.log(o.age); 
+// -> 25
+// Is there a 'age' own property on o? Yes, and its value is 2.
 // The prototype also has a 'b' property, but it's not visited. 
 // This is called "property shadowing."
 
