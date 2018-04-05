@@ -11,3 +11,6 @@ For example: Date objects inherit from Date.prototype. Array objects inherit fro
 
 * Object.prototype.\_\_proto\_\_: The `__proto__` property of Object.prototype is an accessor property (a getter function and a setter function) that exposes the internal [[Prototype]] (either an object or null) of the object through which it is accessed. 
 __NOTICE__: The use of `__proto__` is controversial, and has been discouraged.
+
+---
+* MDN [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
