@@ -12,4 +12,6 @@
     * [Prototype](node/javascript/prototype.md)
     * [Collection Operation](node/javascript/array-operation.md)
     * [Tips](node/javascript/tips.md)
+* [Console](console.md)
+  * Bash
 
