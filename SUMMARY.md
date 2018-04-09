@@ -15,4 +15,5 @@
 * [Terminal](terminal.md)
   * [Bash](terminal/bash.md)
     * [Colorful Result](terminal/bash/colorful-result.md)
+    * [Alias & Function](terminal/bash/alias-and-function.md)
 
