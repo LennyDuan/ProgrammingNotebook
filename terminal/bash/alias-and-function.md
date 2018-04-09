@@ -43,7 +43,11 @@ hongyiduan $ ~: git push origin dev
 * Create `~/.bash_profile` via command line `> ~/.bash_profile`
 * Edit this file via `vim` (whatever you want) with this `codes`:
 ```
-
+gitNew() {
+    git add .
+    git commit -m"$1"
+    git push origin $2
+}
 ```
 * Save the changes and open an __new__ shell
-* Enjoy the function, it will take the parameters as your input
+* Enjoy the function, it will take the parameters as your input. `$1` will take the first param and the `$2` will take the second param
