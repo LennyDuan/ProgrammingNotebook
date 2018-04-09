@@ -41,9 +41,9 @@ hongyiduan $ ~: git push origin dev
 
 ##### Step:
 * Create `~/.bash_profile` via command line `> ~/.bash_profile`
-* Edit this file via `vim` (whatever you want) with this `line`:
+* Edit this file via `vim` (whatever you want) with this `codes`:
 ```
-alias gitnew='git add . && git commit -m'new changes' && git push origin'
+
 ```
 * Save the changes and open an __new__ shell
-* Enjoy the alias, it will run command `git add . && git commit -m'new changes' && git push origin` when you input `gitnew`
+* Enjoy the function, it will take the parameters as your input
