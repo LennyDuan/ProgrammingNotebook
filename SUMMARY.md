@@ -14,4 +14,5 @@
     * [Tips](node/javascript/tips.md)
 * [Terminal](terminal.md)
   * [Bash](terminal/bash.md)
+    * [Colorful Result](terminal/bash/colorful-result.md)
 
