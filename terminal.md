@@ -1,3 +1,3 @@
 # Unix Terminal Tips
 
-Some useful tips for Unix Console/Terminal
+Some useful tips for Unix shell
