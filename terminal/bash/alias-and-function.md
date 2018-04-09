@@ -27,6 +27,7 @@ alias gitnew='git add . && git commit -m'new changes' && git push origin'
 
 #### 2. ___FUNCTION: ___ Do __git__ add & commit & push with different message _new changes_ to different branch:
 ###### __Notice__: Alias does not accept parameters but a function can be called just like an alias.
+##### Example:
 * Input `gitnew` in a bash shell: 
 ```
 hongyiduan $ ~: gitNew 'unique message' dev
