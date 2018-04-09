@@ -21,3 +21,5 @@ __prompt_command() {
         fi
 }
 ```
+* Save the changes and open an __new__ shell
+* Enjoy the colorful command result.
