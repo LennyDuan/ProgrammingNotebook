@@ -12,6 +12,7 @@
     * [Prototype](node/javascript/prototype.md)
     * [Collection Operation](node/javascript/array-operation.md)
     * [Tips](node/javascript/tips.md)
+    * [Coding Style](node/javascript/coding-style.md)
 * [Terminal](terminal.md)
   * [Bash](terminal/bash.md)
     * [Colorful Result](terminal/bash/colorful-result.md)
