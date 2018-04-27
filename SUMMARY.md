@@ -19,6 +19,6 @@
     * [Colorful Result](terminal/bash/colorful-result.md)
     * [Alias & Function](terminal/bash/alias-and-function.md)
   * [Command Line](terminal/command-line.md)
-    * [Unix](terminal/command-line/unix.md)
+    * [Unix-Like](terminal/command-line/unix.md)
     * [Third Party](terminal/command-line/third-party.md)
 
