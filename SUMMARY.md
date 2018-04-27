@@ -18,6 +18,4 @@
   * [Bash](terminal/bash.md)
     * [Colorful Result](terminal/bash/colorful-result.md)
     * [Alias & Function](terminal/bash/alias-and-function.md)
-  * [Command Line](terminal/command-line.md)
-    * [Unix](terminal/command-line/unix.md)
 
