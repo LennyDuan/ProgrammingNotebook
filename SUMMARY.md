@@ -20,5 +20,5 @@
     * [Alias & Function](terminal/bash/alias-and-function.md)
   * [Command Line](terminal/command-line.md)
     * [Unix](terminal/command-line/unix.md)
-    * Third Party
+    * [Third Party](terminal/command-line/third-party.md)
 
