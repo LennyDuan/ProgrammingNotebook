@@ -9,7 +9,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `more <file>`: shows the first part of a file
 * `cat <file> `: show the tails of a file
 * `mv <file> <file>`: moves a file (i.e. gives it a different name, or moves it into a different directory
-* `cp <file> <file>`
+* `cp <file> <file>`: copies a file
 * `diff <file> <file>`
 * ``
 * ``
