@@ -29,6 +29,9 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `whoami`: returns your username
 * `passwd`: lets you change your password,
 
+### Processes
+* `kill <PID>`:  kills (ends) the processes with the ID you gave 
+
 ### Others
 * `date`: shows the current date and time.
 * `cal`: shows a calendar of the current month.
