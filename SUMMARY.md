@@ -25,4 +25,5 @@
       * sed
       * ln
     * [Third Party](terminal/command-line/third-party.md)
+      * git
 
