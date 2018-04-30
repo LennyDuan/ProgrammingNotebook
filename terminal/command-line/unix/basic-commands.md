@@ -8,9 +8,9 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `ls -a`: lists all files, including the ones whose filenames begin in a dot
 * `more <file>`: shows the first part of a file
 * `cat <file> `: show the tails of a file
-* ``
-* ``
-* ``
+* `mv <file> <file>`: moves a file (i.e. gives it a different name, or moves it into a different directory
+* `cp <file> <file>`
+* `diff <file> <file>`
 * ``
 * ``
 * ``
