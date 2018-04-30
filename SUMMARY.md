@@ -28,4 +28,5 @@
       * git
       * brew
       * aws
+      * dos2unix
 
