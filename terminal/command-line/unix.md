@@ -5,3 +5,4 @@ UNIX commands are strings of characters typed in at the keyboard and used on a U
 * Basic Commands
 * ln
 * sed
+* grep
