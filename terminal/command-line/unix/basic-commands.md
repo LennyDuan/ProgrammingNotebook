@@ -24,7 +24,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `rm -rf <dir>`: remove the whole dir and files inside
 
 ### Account
-* `w`:
+* `w`: tells you who's logged in, and what they're doing. 
 * `who`: tells you who's logged on, and where they're coming from.
 * `whoami`: returns your username
 * `passwd`: lets you change your password,
