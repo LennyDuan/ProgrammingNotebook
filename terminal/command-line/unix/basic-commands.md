@@ -14,11 +14,12 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `gzip <file>`: compresses files
 * `gunzip <file>`: uncompresses files compressed by gzip
 * `gzcat <file>`: look at a gzipped file without actually having to gunzip it 
-* `<file>`
-* `<file>`
-* `<file>`
-* `<file>`
-* `<file>`
+
+### Directory
+* `mkdir <dir>`: create an empty dir
+* `cd <dir>`: change directory. You basically 'go' to another directory.
+* `pwd`: tells you where you currently are.
+
 
 ---
 * [Stanford.edu - Computing: Basic Unix](http://mally.stanford.edu/~sr/computing/basic-unix.html) 
