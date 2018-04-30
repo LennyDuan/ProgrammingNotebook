@@ -32,7 +32,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 ### Processes
 * `kill <PID>`:  kills (ends) the processes with the ID you gave 
 * `ps aux`: list all the processes
-
+* `ps -u <username>`: lists your processes
 ### Others
 * `date`: shows the current date and time.
 * `cal`: shows a calendar of the current month.
