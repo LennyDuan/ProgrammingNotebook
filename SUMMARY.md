@@ -22,5 +22,6 @@
     * [Unix-Like](terminal/command-line/unix.md)
       * [Basic Commands](terminal/command-line/unix/basic-commands.md)
       * grep
+      * sed
     * [Third Party](terminal/command-line/third-party.md)
 
