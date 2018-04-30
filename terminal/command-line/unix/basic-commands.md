@@ -23,6 +23,11 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `pwd`: tells you where you currently are.
 * `rm -rf <dir>`: remove the whole dir and files inside
 
+### Account
+* `w`:
+* `who`:
+* `whoami`:
+* `passwd`: 
 
 ---
 * [Stanford.edu - Computing: Basic Unix](http://mally.stanford.edu/~sr/computing/basic-unix.html) 
