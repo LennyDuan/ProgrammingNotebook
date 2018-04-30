@@ -10,7 +10,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `cat <file> `: show the tails of a file
 * `mv <file> <file>`: moves a file (i.e. gives it a different name, or moves it into a different directory
 * `cp <file> <file>`: copies a file
-* `diff <file> <file>`
+* `diff <file> <file>`: compares files, and shows where they differ
 * ``
 * ``
 * ``
