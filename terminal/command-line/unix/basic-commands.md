@@ -37,6 +37,6 @@ These command line are very powerful and easy and will be used a lot when you ar
 ### Others
 * `date`: shows the current date and time.
 * `cal`: shows a calendar of the current month.
-
+* `which <command>`: show the location for the running command. 
 ---
 * [Stanford.edu - Computing: Basic Unix](http://mally.stanford.edu/~sr/computing/basic-unix.html) 
