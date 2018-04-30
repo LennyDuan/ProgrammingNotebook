@@ -25,9 +25,9 @@ These command line are very powerful and easy and will be used a lot when you ar
 
 ### Account
 * `w`:
-* `who`:
-* `whoami`:
-* `passwd`: 
+* `who`: tells you who's logged on, and where they're coming from.
+* `whoami`: returns your username
+* `passwd`: lets you change your password,
 
 ---
 * [Stanford.edu - Computing: Basic Unix](http://mally.stanford.edu/~sr/computing/basic-unix.html) 
