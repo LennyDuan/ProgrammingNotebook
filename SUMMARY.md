@@ -23,5 +23,6 @@
       * [Basic Commands](terminal/command-line/unix/basic-commands.md)
       * grep
       * sed
+      * ln
     * [Third Party](terminal/command-line/third-party.md)
 
