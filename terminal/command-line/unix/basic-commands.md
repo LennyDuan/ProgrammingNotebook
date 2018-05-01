@@ -23,7 +23,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `cd <dir>`: change directory. You basically 'go' to another directory.
 * `pwd`: tells you where you currently are.
 * `rm -rf <dir>`: remove the whole dir and files inside
-
+* <
 ### Account
 * `w`: tells you who's logged in, and what they're doing. 
 * `who`: tells you who's logged on, and where they're coming from.
