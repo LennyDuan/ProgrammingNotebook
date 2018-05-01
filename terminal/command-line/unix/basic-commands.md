@@ -23,7 +23,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `cd <dir>`: change directory. You basically 'go' to another directory.
 * `pwd`: tells you where you currently are.
 * `rm -rf <dir>`: remove the whole dir and files inside
-* `sort myfile |uniq -u|tee newfile.txt`: remove duplicated lines
+* `sort <file> |uniq -u|tee <newfile>`: remove duplicated lines
 
 ### Account
 * `w`: tells you who's logged in, and what they're doing. 
