@@ -18,6 +18,10 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `gzcat <file>`: look at a gzipped file without actually having to gunzip it 
 * `split <file>`: split file to files. `split -l 5000 <file>` will split to files which is 5000 lines each 
 * `cat <file1> <file2> > <file3>`: combile 2 files together to 1 file
+* `sort <file> |uniq|tee <newfile>`: remove duplicated lines
+* `sort <file> |uniq -u|tee <newfile>`: remove duplicated lines and remain one for the duplicate lines
+
+
 ### Directory
 * `mkdir <dir>`: create an empty dir
 * `cd <dir>`: change directory. You basically 'go' to another directory.
