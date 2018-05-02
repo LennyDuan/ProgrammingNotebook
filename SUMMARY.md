@@ -31,4 +31,6 @@
       * dos2unix
 * Data
   * Database
+  * Data Query
+  * Big Data
 
