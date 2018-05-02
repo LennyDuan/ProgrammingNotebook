@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Data](data.md)
 * [Java](java.md)
   * [Term](java/term.md)
     * [Pojo](java/term/pojo.md)
