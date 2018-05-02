@@ -35,6 +35,6 @@
     * NoSQL
   * Data Query
     * SQL Syntax
-    * Lucene Syntax
+    * [Lucene Syntax](lucene-syntax.md)
   * Big Data
 
