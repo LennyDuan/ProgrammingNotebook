@@ -31,7 +31,7 @@
       * dos2unix
 * Data
   * Database
-    * SQL
+    * [SQL](sql.md)
     * [NoSQL](nosql.md)
   * [Data Query](data-query.md)
     * [SQL Syntax](sql-syntax.md)
