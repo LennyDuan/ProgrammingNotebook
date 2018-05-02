@@ -32,7 +32,7 @@
 * Data
   * Database
     * SQL
-    * NoSQL
+    * [NoSQL](nosql.md)
   * [Data Query](data-query.md)
     * [SQL Syntax](sql-syntax.md)
     * [Lucene Syntax](lucene-syntax.md)
