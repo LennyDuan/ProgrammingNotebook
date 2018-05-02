@@ -34,5 +34,6 @@
     * SQL
     * NoSQL
   * Data Query
+    * SQL Syntax
   * Big Data
 
