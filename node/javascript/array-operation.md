@@ -7,7 +7,7 @@ There have lots of third-party API/Modules about operate the Array such as [Loda
 More info can be checked in [official doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ---
-## Return a new array of objects 
+## Return __a new array__ of objects 
 ### `.map()`
 ###### -> every element will be modified by provided function
 ```
