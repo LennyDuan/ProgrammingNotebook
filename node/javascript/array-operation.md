@@ -1,4 +1,4 @@
-# Collection Operation
+sort# Collection Operation
 
 Here will talk about the how to quick operate/modify the collection (__Array or Objects__) via _build-in_ & _elegant_ ES6 features. 
 

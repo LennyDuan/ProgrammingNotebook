@@ -29,7 +29,7 @@
       * brew
       * aws
       * dos2unix
-* Data
+* [Data](data.md)
   * [Database](database.md)
     * [SQL](sql.md)
     * [NoSQL](nosql.md)
