@@ -29,7 +29,7 @@ const result = origin.filter(ele => ele > 3)
 ---
 
 ### `.slice()`
-###### -> from `begin` to `end`(end not included)
+###### -> elements from `begin` to `end`(end not included)
 ```
 const origin = [1, 2, 3, 4, 5];
 // origin -> [1, 2, 3, 4, 5]
