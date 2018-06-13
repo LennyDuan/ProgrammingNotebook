@@ -16,7 +16,7 @@ const origin = [1, 2, 3, 4, 5];
 const result = origin.map(ele => ele * 2);
 // result -> [2, 4, 6, 8, 10]
 ```
----
+---restructureRoomDescription  
 
 ### `.filter()`
 ###### -> elements will pass the function
