@@ -21,14 +21,14 @@
   * [Command Line](terminal/command-line.md)
     * [Unix-Like](terminal/command-line/unix.md)
       * [Basic Commands](terminal/command-line/unix/basic-commands.md)
-      * grep
-      * sed
+      * [grep](terminal/command-line/unix/grep.md)
+      * [sed](terminal/command-line/unix/sed.md)
       * ln
     * [Third Party](terminal/command-line/third-party.md)
-      * git
-      * brew
-      * aws
-      * dos2unix
+      * [git](terminal/command-line/third-party/git.md)
+      * [brew](terminal/command-line/third-party/brew.md)
+      * [aws](terminal/command-line/third-party/aws.md)
+      * [dos2unix](terminal/command-line/third-party/dos2unix.md)
 * [Data](data.md)
   * [Database](database.md)
     * [SQL](sql.md)
