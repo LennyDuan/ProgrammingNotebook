@@ -20,7 +20,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `cat <file1> <file2> > <file3>`: combile 2 files together to 1 file
 * `sort <file> |uniq|tee <newfile>`: remove duplicated lines
 * `sort <file> |uniq -u|tee <newfile>`: remove duplicated lines and remain one for the duplicate lines
-* `zip -r <file.zip> *`: zipping all files in this dir
+* `zip -r <file.zip> *`: zipping all files in this dir to <file.zip> file
 ### Directory
 * `mkdir <dir>`: create an empty dir
 * `cd <dir>`: change directory. You basically 'go' to another directory.
