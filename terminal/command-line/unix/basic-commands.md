@@ -12,6 +12,7 @@ These command line are very powerful and easy and will be used a lot when you ar
 * `cp <file> <file>`: copies a file
 * `rm <file>`: remove file
 * `wc <file>`: tells you how many lines, words, and characters there are in a file
+* `wc -l <file>`: tells you how many linesthere are in a file
 * `diff <file> <file>`: compares files, and shows where they differ
 * `gzip <file>`: compresses files
 * `gunzip <file>`: uncompresses files compressed by gzip
