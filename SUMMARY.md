@@ -6,6 +6,7 @@
     * [Pojo](java/term/pojo.md)
   * [Tool](java/tool.md)
     * [Log - SLF4J](java/tool/log.md)
+    * [Jackson](java/tool/jackson.md)
 * [Node](node.md)
   * [JavaScript](node/javascript.md)
     * [Data Structure](node/javascript/data-structure.md)
