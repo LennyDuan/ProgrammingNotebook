@@ -1,6 +1,6 @@
 # Programming Notebook
 
-All the content can be viewed [lennyduan.gitbooks](https://lennyduan.gitbooks.io/programming-notebook/content/)
+All the content can be viewed [lennyduan.gitbooks](https://lennyduan.gitbooks.io/programming-notebook/content/) 
 
 ---
 This is a notebook for myself and all the programmer to record and share all the all the knowledge I learned during programming.
